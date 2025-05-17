@@ -20,7 +20,6 @@ public class ExpenseTracker {
             return;
         }
         System.out.println("Date       | Category | Amount");
-        System.out.println("------------------------------");
         for (Transaction t : transactions) {
             System.out.println(t);
         }
